@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.editor, .posts {
+    background: white;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.preview {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #333;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tag {
+    background: #ddd;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
